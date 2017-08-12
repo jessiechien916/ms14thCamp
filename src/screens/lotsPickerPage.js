@@ -1,12 +1,12 @@
 import React ,{Component} from 'react';
 
-class MissonPage extends Component{
+class LotsPickerPage extends Component{
   render(){
       return (<div>
-                  <h1>你的任務是</h1>
+                  <h1>抽籤囉</h1>
               </div>);
       }
 }
 
 
-export default MissonPage;
+export default LotsPickerPage;

@@ -3,20 +3,23 @@ import {Route,IndexRoute} from 'react-router';
 
 /*this is the page section*/
 import App        from './components/app';
-import Login      from './container/form_login';
-import ProtoIndex from './container/proto_index';
-import Edit       from './components/edit';
-import Add        from './container/work_input';
-import Read       from './container/work_read';
-import AboutEdit  from './container/about_edit';
+import LangdingPage from './screens/landingPage';
+import LotsPickerPage from './screens/lotsPickerPage';
+import LotsResultPage from './screens/lotsResultPage';
+import MissonPage from './screens/missonPage';
+import MoneyPage from './screens/moneyPage';
+import MapPage from './screens/mapPage';
+import NpcPage from './screens/npcPage';
+import AboutPage from './screens/aboutPage';
 
 export default (
   <Route path = "/" component = {App}>
-    <IndexRoute component = {ProtoIndex}/>
-    <Route  path = "/admin" component = {Login} />
-    <Route  path = "/edit"  component = {Edit} />
-    <Route  path  = "/add"  component = {Add} />
-    <Route  path = "/post/:id"   components= {Read}/>
-    <Route  path = "/user/:id"   components= {AboutEdit} />
+    <IndexRoute component = {LangdingPage}/>
+    <Route  path = "/lp" component = {LotsPickerPage} />
+    <Route  path = "/lr"  component = {LotsResultPage} />
+    <Route  path  = "/mp"  component = {MissonPage} />
+    <Route  path = "/monp"   components= {MoneyPage}/>
+    <Route  path = "/np"   components= {NpcPage} />
+    <Route  path = "/ap"   components= {AboutPage} />
   </Route>
 );
