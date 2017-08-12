@@ -19,7 +19,12 @@ class LandingPage extends Component {
                     </li>
                     <li>
                         <Link to="/mp">
-                            <p>地圖</p>
+                            <p>任務列表</p>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/map">
+                            <p>任務列表</p>
                         </Link>
                     </li>
                     <li>

@@ -18,6 +18,7 @@ export default (
     <Route  path = "/lp" component = {LotsPickerPage} />
     <Route  path = "/lr"  component = {LotsResultPage} />
     <Route  path  = "/mp"  component = {MissonPage} />
+    <Route  path = "/map"   components= {MapPage}/>
     <Route  path = "/monp"   components= {MoneyPage}/>
     <Route  path = "/np"   components= {NpcPage} />
     <Route  path = "/ap"   components= {AboutPage} />
