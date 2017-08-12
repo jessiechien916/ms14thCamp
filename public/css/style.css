@@ -1,0 +1,284 @@
+/* 超小螢幕設備（手機，小於 768px） */
+/* 沒有媒體查詢，因為這在 Bootstrap 3 是預設的。 */
+
+/* 小螢幕設備（平板，768px（含）以上） */
+@media (min-width: @screen-sm-min) { ... }
+
+/* 中螢幕設備（一般桌面，992px（含）以上） */
+@media (min-width: @screen-md-min) { ... }
+
+/* 大螢幕設備（大型桌面，1200px（含）以上） */
+@media (min-width: @screen-lg-min) { ... }
+
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
+
+li{
+  list-style-type: none;
+}
+h1{
+  margin: 0px;
+  padding:20px 10px 20px 0px;
+}
+.container-fluid{
+  padding: 0;
+}
+.btn_admin{
+  padding:10px 20px 10px 20px;
+  float:right;
+}
+.btn_admin p{
+  color: white;
+}
+
+.paper{
+  margin-top: 15%;
+  padding: 10px 15px 10px 15px;
+  background:#F5F5F5;
+  box-shadow: 3px 5px 15px #888888;
+}
+
+.logout{
+  float:right;
+  border: none;
+  padding:10px 20px 10px 20px;
+  background: none;
+}
+.body{
+  background: #E8ECF1;
+  height: 100vh;
+  width: 100%;
+}
+
+/*-----index page-----*/
+.navbar{
+  margin-bottom: 0px;
+}
+.about{
+  color: white;
+  height: 850px;
+}
+.about h1 {
+  padding: 10px 0px 10px 0px;
+}
+.intro{
+  z-index: 10;
+  background-color: #343434;
+  box-shadow: 3px 5px 5px #26252C;
+  margin-top: 20%;
+  opacity: 0.9;
+  padding: 0px 15px 20px 15px;
+}
+
+.skill{
+  background: white;
+  padding-bottom: 50px;
+}
+.skill h1{
+  text-align: center;
+  margin-top: 10px;
+}
+.seperater{
+  height: 1px;
+}
+.school{
+  color:  white;
+  height: 350px;
+
+}
+.school h3 {
+  padding: 10px 0px 10px 0px;
+}
+.school_intro{
+  z-index: 10;
+  background-color: #343434;
+  box-shadow: 3px 5px 5px #26252C;
+  margin-top: 10%;
+  opacity: 0.9;
+  padding: 0px 15px 20px 15px;
+}
+.works{
+  padding: 20px 15px 50px 15px;
+}
+.proto h1{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.protocon{
+  padding:0px 30px 0px 30px
+}
+
+.protos{
+  padding: 0px;
+}
+
+.protos img{
+   width: 100%;
+   height:20em;
+}
+
+.footer{
+  background: #343434;
+  height: 150px;
+}
+
+.skills{
+  background-color: white;
+  box-shadow: 3px 5px 15px #888888;
+  margin-top: 10px;
+  text-align: center;
+}
+.skills img {
+  width:100px;
+  height:100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.skills p{
+  padding:10px;
+}
+.program{
+  border-bottom: solid 3px #FF5AB0;
+}
+
+.design{
+  border-bottom: solid 3px #F0B775;
+}
+
+.draw{
+  border-bottom: solid 3px #1BB5EC;
+}
+
+.loading{
+text-align: center;
+}
+
+/*-------login page------*/
+.btn_home{
+  padding:10px 20px 10px 20px;
+  float:right;
+}
+.btn_home p{
+  color:#343434;
+}
+.form{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom:100px;
+}
+.user_input{
+  margin: 5px 0px 5px 0px;
+  padding:5px 10px 5px 10px;
+  border: none;
+  background-color:#C2CFD8;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.submit{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #446491;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  width: 100%;
+}
+.form{
+ padding:0% 10%;
+}
+.from h5{
+  color:#343434;
+}
+/*-----edit page -----*/
+.editnav li{
+  display: inline-block;
+  float: right;
+  padding: 10px 10px 10px 10px;
+
+}
+.edit_btns {
+  border: none;
+  background-color: transparent;
+}
+
+}
+.edit_btns p{
+  border: none;
+  background-color: transparent;
+  color: #343434;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+/*-----wrok input-----*/
+
+.work_input img{
+  border: 1px solid ##343434;
+}
+.work_input button{
+  margin-top:10px;
+}
+.work_input .thumb{
+  margin-top:10px;
+}
+/*-----about input-----*/
+
+.about_input input{
+  width:100%;
+}
+
+/*-----read one-----*/
+.work_description{
+  background: #F8F8F8;
+  padding-bottom: 50px;
+}
+.work_description p{
+  text-align: center;
+  padding-top: 20px;
+}
+.go{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #F36363;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+.go a{
+  text-decoration: none;
+  color:white;
+}
+
+.read_nav{
+  background-color: #343434;
+
+}
+.read_nav button{
+  float: right;
+  border:none;
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+}
+.read_nav a{
+  text-decoration: none;
+  color:white;
+}
+.work_screenshots{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.work_screenshots img{
+  height: 250px;
+  width: 100%;
+  margin: 0;
+}
