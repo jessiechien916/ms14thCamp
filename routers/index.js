@@ -1,14 +1,14 @@
 var    express      = require('express'),
        router       = express.Router();
-       index        = require('../controller/index'),
-       add          = require('../controller/add'),
+       index        = require('../controller/index');
+       
   
        
       
 
 
 router.route('/').get(index);
-router.route('/api/add').post(add);
+
 
 
 module.exports = router;
