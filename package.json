@@ -1,7 +1,7 @@
 {
-  "name": "protofolio",
+  "name": "msseed14th",
   "version": "1.0.0",
-  "description": "my protofolio",
+  "description": "mseed14th",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,9 +20,9 @@
     "body-parser": "^1.17.2",
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.3",
-    "csvtojson": "^1.1.7",
     "express": "^4.15.4",
     "express-session": "^1.15.5",
+    "fast-csv": "^2.4.0",
     "lodash": "^3.10.1",
     "moment": "^2.18.1",
     "mongoose": "^4.11.6",
